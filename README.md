@@ -1,2 +1,17 @@
 # -Windows-11-disable-Microsoft-Defender-Antivirus-permanently
 disable realtime protection
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+DisableAntiSpyware
+DisableRealtimeMonitoring
+DisableAntiVirus
+DisableSpecialRunningModes
+DisableRoutinelyTakingAction
+ServiceKeepAlive
+DisableBehaviorMonitoring
+DisableOnAccessProtection
+DisableRealtimeMonitoring
+DisableScanOnRealtimeEnable
+ForceUpdateFromMU
+DisableBlockAtFirstSeen
+
